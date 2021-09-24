@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake jiggles</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <div class="header row">
+        <span class="logo">Earthquake jiggles</span>
+        <span class="input"><input type="text" placeholder="Enter a location and search"></span>
+        <span class="search">
+            <button onclick="filterLocations()">search</button>
+            <button onclick="filterLocations(true)">Show All</button>
+        </span>
+        
+    </div>
+    
+    <div class="page">
+        <div class="page-header">
+            active-locations
+            
+        </div>
+        
+        <div class="page-content">
+            
+            <!-- <div class="content-item">
+                <div class="location-info">
+                    <div class="row">
+                        <div class="location-name">Name</div>
+                        <div class="location-intensity">earth quake intensity: <span class="intensity">xx</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="location-time">Time logged: <span class="time-logged">xx</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="location-action">
+                            <button onclick>See history</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <div class="location-info">
+                    <div class="row">
+                        <div class="location-name">Name</div>
+                        <div class="location-e-intensity">earth quake intensity: <span class="intensity">xx</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="location-time">Time logged: <span class="time-logged">xx</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="location-action">
+                            <button>See history</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
